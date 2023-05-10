@@ -30,4 +30,4 @@ a = int(input("Enter the beginning of the range: "))
 b = int(input("Enter the end of the range: "))
 indices = [i for i in range(len(arr)) if a <= arr[i] <= b]
 result = ",".join([f"{i}({arr[i]})" for i in indices])
-print(result) 
+print(result)
